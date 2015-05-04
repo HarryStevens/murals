@@ -14,15 +14,29 @@ body {
 /* MAP */
 #map-canvas {
 	width: 600px;
-	height: 590px;
+	height: 580px;
 }
 .title {
 	text-align: center;
 	font-size: 30px;
 	padding-bottom: 10px;
 }
+
+/* SEARCH */
+#searchbox {
+	float: left;
+}
 .search {
-	margin-bottom: 10px;
+	height: 40px;
+	margin: 0 auto;
+	display: table;
+}
+.searchbutton {
+	cursor: pointer;
+	font-size: 22px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 10px;
 }
 .contact {
 	width: 600px;

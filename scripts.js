@@ -14,7 +14,7 @@ $(document).ready(function() {
 	//Initialize the Google map according to various parameters
 	function initialize() {
 		map = new google.maps.Map(document.getElementById('map-canvas'), {
-			center : new google.maps.LatLng(40.752460019996185, -73.80477261210937),
+			center : new google.maps.LatLng(40.732460019996185, -73.90477261210937),
 			zoom : 10
 		});
 		var style = [{
@@ -86,7 +86,7 @@ $(document).ready(function() {
 	}
 	
 	//When "search" button is clicked, change the map
-	$(".search > input[type='button']").click(function() {
+	$(".searchbutton").click(function() {
 		changeMap();
 	});
 
