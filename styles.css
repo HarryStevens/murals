@@ -1,0 +1,31 @@
+body {
+	margin: 0 auto;
+	display: table;
+	padding: 10px;
+	font-family: Helvetica !important;
+}
+
+/* BASICS */
+.center {
+	text-align: center;
+}
+
+/* MAP */
+#map-canvas {
+	width: 600px;
+	height: 600px;
+}
+.search {
+	margin-bottom: 10px;
+}
+
+/* jQuery UI */
+.ui-widget {
+	font-family: Helvetica !important;
+}
+.ui-widget-content {
+	background: #FFF;
+}
+.ui-widget-content li:hover {
+	background: #EEE;
+}
