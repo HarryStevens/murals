@@ -3,6 +3,7 @@ body {
 	display: table;
 	padding: 10px;
 	font-family: 'Roboto', Helvetica, sans-serif;
+	background: #FAFAFA;
 }
 
 /* BASICS */
@@ -13,10 +14,19 @@ body {
 /* MAP */
 #map-canvas {
 	width: 600px;
-	height: 600px;
+	height: 590px;
+}
+.title {
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 10px;
 }
 .search {
 	margin-bottom: 10px;
+}
+.contact {
+	width: 600px;
+	margin-top: 10px;
 }
 
 /* jQuery UI */
@@ -29,4 +39,19 @@ body {
 }
 .ui-widget-content li:hover {
 	background: #EEE;
+}
+
+/* SHARING */
+.share {
+	float: left;
+	position: absolute;
+	left: 10px;
+}
+.share img {
+	width: 30px;
+	opacity: .8;
+	margin-right: 5px;
+}
+.share img:hover {
+	opacity: 1;
 }
