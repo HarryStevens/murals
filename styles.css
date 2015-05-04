@@ -2,7 +2,7 @@ body {
 	margin: 0 auto;
 	display: table;
 	padding: 10px;
-	font-family: Helvetica !important;
+	font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 /* BASICS */
@@ -21,7 +21,8 @@ body {
 
 /* jQuery UI */
 .ui-widget {
-	font-family: Helvetica !important;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 12px;
 }
 .ui-widget-content {
 	background: #FFF;
